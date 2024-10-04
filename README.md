@@ -22,7 +22,7 @@ The model with the lowest **Mean Absolute Error (MAE)** is selected as the best 
 1. Clone this repository:
 
 ```
-git clone https://github.com/your-username/california-housing-price-prediction.git
+git clone https://github.com/AhmedNasr0/california-housing-price-prediction.git
 cd california-housing-price-prediction
 ```
 2. Install the required dependencies:
