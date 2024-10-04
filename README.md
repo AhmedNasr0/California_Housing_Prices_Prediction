@@ -67,14 +67,20 @@ Several visualizations are provided:
 ```
 plt.bar(models, mae, color='red')
 ```
+![models_comparison](https://github.com/user-attachments/assets/ed6aed34-0acb-4c3e-babb-ca34f507e6b4)
+
 * **Predicted vs Actual Values:** A scatter plot showing the predicted vs actual house prices for XGBoost.
 ```
 plt.scatter(y_test, xgb_y_prediction)
 ```
+![actualVsPredict](https://github.com/user-attachments/assets/5afc19d2-2dc7-461e-8a79-eeec4adea3f3)
+
 * **California Map:** A plot showing the locations of houses with their median house value overlaid on a map of California.
 ```
 plt.imshow(californiaImg, extent=[-124.8,-113.8,32.45,42], alpha=0.4)
 ```
+![california](https://github.com/user-attachments/assets/fb38d436-77ca-401a-97a7-8f7832764341)
+
 ## Results
 After testing multiple models, XGBoost provided the lowest Mean Absolute Error (MAE):
 
@@ -84,6 +90,7 @@ Multiple Linear Regression: 49,697.07
 * Random Forest: 31,278.15
 * XGBoost: 29,696.11
 **XGBoost was chosen as the best model based on these results.**
+  
 
 ## Future Work
 * Hyperparameter Tuning: Further optimization of models could improve accuracy.
